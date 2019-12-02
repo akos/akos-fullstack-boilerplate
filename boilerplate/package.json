@@ -1,0 +1,27 @@
+{
+    "name": "akos-fullstack-boilerplate-sample",
+    "version": "0.0.1",
+    "description": "a fullstack boilerplate sample for akos",
+    "main": "./server/app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "cd server && npm run dev",
+      "init:server": "cd server && npm install",
+      "init:client": "cd client && npm install",
+      "dev:client": "cd client && npm run dev",
+      "build:client": "cd client && npm run build && npm run publish",
+      "start": "cd server && npm run stop && npm run start",
+      "stop": "cd server && npm run stop"
+    },
+    "keywords": [
+      "vusion",
+      "akos",
+      "vue",
+      "egg",
+      "node.js",
+      "js"
+    ],
+    "author": "Alps_Lin",
+    "license": "ISC"
+  }
+  
