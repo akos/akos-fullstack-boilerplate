@@ -1,6 +1,6 @@
-# akos-egg-boilerplate-simple
+# akos-fullstack-boilerplate
 
-A simple boilerplate for akos-egg quickstart. 
+A fullstack boilerplate for akos-egg quickstart. 
 Part of the template for internal use only, not open source.Such as openId, cloud resources, forming a template such as provided in the Intranet.
 
 ## Installation
@@ -9,7 +9,7 @@ Part of the template for internal use only, not open source.Such as openId, clou
 
 ```bash
 $ npm i -g akos-boilerplate-init
-$ akos-boilerplate-init --type akos-simple showcase
+$ akos-boilerplate-init --type akos-fullsatck-boilerplate showcase
 $ cd showcase
 $ npm i
 $ npm run dev
