@@ -7,12 +7,39 @@
       "akos-simple": {
         "package": "akos-egg-boilerplate-simple",
         "description": "Simple akos-boilerplate-egg app boilerplate"
+      },
+      "akos-sequelize": {
+        "package": "akos-egg-boilerplate-sequelize",
+        "description": "akos egg app with sequelize"
+      },"egg-simple": {
+        "package": "egg-boilerplate-simple",
+        "description": "Simple egg app boilerplate"
+      },
+      "egg-microservice":{
+        "package": "egg-boilerplate-microservice",
+        "description": "Microservice app boilerplate based on egg"
+      },
+      "egg-ts": {
+        "package": "egg-boilerplate-ts",
+        "description": "Simple egg && typescript app boilerplate"
+      },
+      "egg-empty": {
+        "package": "egg-boilerplate-empty",
+        "description": "Empty egg app boilerplate"
+      },
+      "egg-framework": {
+        "package": "egg-boilerplate-framework",
+        "description": "egg framework boilerplate"
       }
     },
     "client": {
       "vusion-simple": {
-        "package": "akos-egg-boilerplate-simple",
-        "description": "Simple akos-boilerplate-egg app boilerplate"
+        "package": "akos-cloud-admin-lite",
+        "description": "A client boilerplate base on vue"
+      },
+      "akos-client-cloud": {
+        "package": "akos-cloud-admin-lite",
+        "description": "A client boilerplate base on vue cloud-ui.vusion"
       }
     }
   },
@@ -49,5 +76,13 @@
     "boilerplate"
   ],
   "author": "Alps_Lin",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akos/akos-fullstack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akos/akos-fullstack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/akos/akos-fullstack-boilerplate#readme"
 }
